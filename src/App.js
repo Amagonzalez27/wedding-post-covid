@@ -1,24 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="App-header">
+        <h1>Love is Patient!</h1>
+        <h2>Amanda & Miguel Tie the Knot July 15th, 2021</h2>
+      </div>
+      <div className="App-message">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          As we redesign our site and re-plan for an even better party, please
+          save our new date at Sky View in Estes Park, CO!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p>We can't say WE DO without all of you!!!</p>
+        <p>
+          Check back soon for new updates and we hope you are able to join us
+          soon!!
+        </p>
+        <div className="App-message-end">
+          <p>With Love,</p>
+          <span>Amanda & Miguel</span>
+        </div>
+      </div>
     </div>
   );
 }
