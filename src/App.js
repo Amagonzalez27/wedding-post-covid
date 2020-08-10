@@ -22,6 +22,7 @@ function App() {
           <p>With Love,</p>
           <span>Amanda & Miguel</span>
         </div>
+        <img alt="mask" className="App-mask" src="/mask.jpg" />
       </div>
     </div>
   );
